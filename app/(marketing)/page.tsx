@@ -94,15 +94,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Transforme qualquer página em 
+                <Br /> Uma oportunidade de sucesso
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{' '}
-                build intuitive SaaS products with speed.
+                Descubra a ferramenta que <Em> Permite replicar estruturas de sucesso e criar páginas de alta conversão em minutos</Em>
+                <Br /> Sem Complicações! <Br />{' '}
+                
               </FallInPlace>
             }
           >
@@ -113,27 +113,9 @@ const HeroSection: React.FC = () => {
 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+                  Começe agora!
                 </ButtonLink>
-                <ButtonLink
-                  size="lg"
-                  href="https://demo.saas-ui.dev"
-                  variant="outline"
-                  rightIcon={
-                    <Icon
-                      as={FiArrowRight}
-                      sx={{
-                        transitionProperty: 'common',
-                        transitionDuration: 'normal',
-                        '.chakra-button:hover &': {
-                          transform: 'translate(5px)',
-                        },
-                      }}
-                    />
-                  }
-                >
-                  View demo
-                </ButtonLink>
+                 
               </ButtonGroup>
             </FallInPlace>
           </Hero>
@@ -170,33 +152,33 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: 'Accessible',
+            title: 'Fácil de Usar',
             icon: FiSmile,
-            description: 'All components strictly follow WAI-ARIA standards.',
+            description: 'Não precisa de habilidades técnicas, a ferramenta é intuitiva e prática, ideal para qualquer nível de experiência.',
             iconPosition: 'left',
             delay: 0.6,
           },
           {
-            title: 'Themable',
+            title: 'Aumento de Conversões',
             icon: FiSliders,
             description:
-              'Fully customize all components to your brand with theme support and style props.',
+              'Com uma estrutura comprovada, potencialize suas vendas e capte mais leads com páginas de alta eficiência.',
             iconPosition: 'left',
             delay: 0.8,
           },
           {
-            title: 'Composable',
+            title: 'Resultados Profissionais',
             icon: FiGrid,
             description:
-              'Compose components to fit your needs and mix them together to create new ones.',
+              'Tenha páginas com design e estrutura otimizados, prontos para gerar conversões.',
             iconPosition: 'left',
             delay: 1,
           },
           {
-            title: 'Productive',
+            title: 'Economia de Tempo',
             icon: FiThumbsUp,
             description:
-              'Designed to reduce boilerplate and fully typed, build your product at speed.',
+              'Crie páginas de alta performance em minutos, sem precisar começar do zero.',
             iconPosition: 'left',
             delay: 1.1,
           },
@@ -208,17 +190,16 @@ const HeroSection: React.FC = () => {
 }
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard('yarn add @saas-ui/react')
+  const { value, onCopy, hasCopied } = useClipboard('https://copywave.io/registrar')
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Compartilhe e ganhe beneficios exclusivos!">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            Compartilhe nossa ferramenta! <Em>Ganhe bonus exclusivos!</Em>.
+            A cada 20 compartilhamento ganhe 1 mês de assinatura gratis!
+            a cada uma inscrição ganhe 10% de desconto ou no pix!!
           </Text>
 
           <Flex
@@ -252,15 +233,13 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="A solução perfeita para seu funil!">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          Modele&apos; qualquer pagina, vsl, quiz etc.. com apenas poucos clicks!
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Renata Alink"
+        name="Maik "
         description="Founder"
         avatar="/static/images/avatar.jpg"
         gradient={['pink.200', 'purple.500']}
@@ -271,31 +250,24 @@ const HighlightsSection = () => {
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="O melhor software para modelagem de paginas da america latina!"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+          a solução do seu problema somos nós!
         </Text>
         <Wrap mt="8">
           {[
-            'authentication',
-            'navigation',
-            'crud',
-            'settings',
-            'multi-tenancy',
-            'layouts',
-            'billing',
-            'a11y testing',
-            'server-side rendering',
-            'documentation',
-            'onboarding',
-            'storybooks',
-            'theming',
-            'upselling',
-            'unit testing',
-            'feature flags',
-            'responsiveness',
+            'Replicação Ágil de Páginas',
+            'Redirecionamento Inteligente',
+            'Análise de Ofertas de Sucesso',
+            'Otimização Contínua de Desempenho',
+            'Hospedagem de Alta Performance',
+            'Facilidade na Configuração',
+            'Escalabilidade Facilitada',
+            'Insights Competitivos',
+            'Soluções Inovadoras',
+            'Insights Competitivos',
+            
           ].map((value) => (
             <Tag
               key={value}
@@ -324,8 +296,8 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> dashboard template.
+          Os Ingredientes do Sucesso: 
+          <Br /> Benefícios que Fazem a Diferença!
         </Heading>
       }
       description={
@@ -341,10 +313,10 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: '#components.',
+          title: '#Replicação instantânea de páginas',
           icon: FiBox,
           description:
-            'All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.',
+            'Sem a capacidade de criar versões eficazes de páginas que já trazem resultados, sua estratégia de marketing ficará estagnada e você perderá oportunidades de conversão.',
           variant: 'inline',
         },
         {

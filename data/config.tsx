@@ -29,11 +29,11 @@ const siteConfig = {
       },
       {
         label: 'Login',
-        href: '/login',
+        href: 'https://copywave.io/login',
       },
       {
-        label: 'Sign Up',
-        href: '/signup',
+        label: 'Cadastre-se',
+        href: 'https://copywave.io/registrar',
         variant: 'primary',
       },
     ],
@@ -42,7 +42,7 @@ const siteConfig = {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        <Link href="https://twitter.com/copywave">Eelco Wiersma</Link>
       </>
     ),
     links: [
@@ -51,11 +51,11 @@ const siteConfig = {
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/copywave',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/saas-js/copywave',
         label: <FaGithub size="14" />,
       },
     ],
